@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #FFFFF0;
+    background-size: 10px 10px;
+    max-width: 800px;
+    min-width: 600px;
+    width: 100%;
+}
+h1 {
+    padding: 0.5em;
+    color: #ffffff;
+    background: #7491f1;
+    border-bottom: solid 3px #516ab6;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+h2{
+    text-align: center;
+}
+.caption{
+    font-size: 16px;
+    border-bottom: double 5px #FFC778;
+}
+.submit {
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    width: 20%;
+    height: 50px;
+    border-radius: 5px;
+    background: linear-gradient(#868686 0%, #3a3a3a 100%);
+    text-decoration: none;
+    color: #fff;
+}
+
+.submit:hover {
+    font-size: 18px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    background: #6866ff;
+}
+.content{
+        position: relative;
+        width: 80%;
+        margin: 30px;
+        left: calc(50% - 150px);
+
+}
+.content input[type='text'], [type='password'] {
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    border: 1px solid #1b2538;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.content input[type='file']{
+margin-top: 10px;
+font-size: 16px;
+}
+.label_style input[type='text'], [type='password']:focus {
+    border: 1px solid #da3c41;
+    outline: none;
+    box-shadow: 0 0 5px 1px rgba(218, 60, 65, .5);
+}
+.label_style{
+    padding: 0.4em 0.5em;
+    color: #494949;
+    background: #f4f4f4;
+    border-left: solid 5px #7db4e6;
+    border-bottom: solid 3px #d7d7d7;
+}
+.cancel {
+    cursor: pointer;
+    padding-top: 12.5px;
+    text-align: center;
+    font-size: 18px;
+    width: 20%;
+    height: 50px;
+    border-radius: 5px;
+    background: linear-gradient(#868686 0%, #3a3a3a 100%);
+    text-decoration: none;
+    color: #fff;
+}
+
+.cancel:hover {
+    font-size: 18px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    background: #6866ff;
+}
+.box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+}

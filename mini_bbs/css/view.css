@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding:10px;
+    background-color: #FFFFF0;
+    background-size: 10px 10px;
+    max-width: 800px;
+    min-width: 600px;
+    width: 100%;
+    text-align: left;
+}
+h1 {
+    padding: 0.5em;
+    color: #ffffff;
+    background: #7491f1;
+    border-bottom: solid 3px #516ab6;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 10px 0 ;
+}
+.box{
+    margin: 20px 0;
+}
+.submit {
+    cursor: pointer;
+    font-size: 18px;
+    width: 20%;
+    height: 50px;
+    border-radius: 5px;
+    background: linear-gradient(#868686 0%, #3a3a3a 100%);
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+}
+.submit:hover {
+    background: #6866ff;
+}
+img{
+    border-radius: 50%;
+}
+.msg{
+    margin: 5px 0 ;
+    padding: 10px;
+    border: #000080 solid 2px;
+    border-radius: 5px;
+}
