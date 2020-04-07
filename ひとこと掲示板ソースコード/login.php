@@ -49,12 +49,15 @@ if (!empty($_POST)) {
 </head>
 
 <body>
-    <h1>トップページ</h1>
-    <div class="entry"><a class="submit_entry" href="join/">入会手続きをする</a></div><br>
+    <h1>ひとこと掲示板</h1>
+    <div class="box">
+        <a class="submit_manual" href="manual.html">掲示板の使い方</a>
+        <a class="submit_entry" href="join/">入会手続きをする</a>
+    </div><br>
     <div>
         <h2><span class="caption">メールアドレスとパスワードを記入してログインしてください。</span></h2>
         <h2><span class="caption">入会手続きがまだの方は、先に手続きを完了させてください。</span></h2>
-    </div>
+    </div><br>
     <form action="" method="POST">
         <div class="content">
             <label class="label_style" for="email">メールアドレス</label><br>
