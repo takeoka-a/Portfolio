@@ -59,6 +59,7 @@ if ($_REQUEST['action'] == 'rewrite') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/join.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     <title>登録フォーム</title>
 </head>
 

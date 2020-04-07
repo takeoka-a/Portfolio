@@ -45,6 +45,7 @@ if (!empty($_POST)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/update.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     <title>Document</title>
 </head>
 
@@ -52,7 +53,7 @@ if (!empty($_POST)) {
     <header>
         <h1>登録内容編集</h1>
     </header>
-    <h2><span class="caption">アイコンを変更する場合はファイルを選択し、「変更する」を押してください</span></h2>
+    <h2><span class="caption fontsize_image">アイコンを変更する場合はファイルを選択し、「変更する」を押してください</span></h2>
     <div class="form">
         <form action="" method="POST" enctype="multipart/form-data">
             <div class="content">

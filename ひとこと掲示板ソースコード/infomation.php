@@ -25,6 +25,7 @@ if (isset($_SESSION['id']) && $_SESSION['time'] + 3600 > time()) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/infomation.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>登録情報</title>
 </head>
 
@@ -32,16 +33,16 @@ if (isset($_SESSION['id']) && $_SESSION['time'] + 3600 > time()) {
     <header>
         <h1>登録情報一覧</h1>
     </header>
-    <table>
+    <table class="infomation">
         <tr>
-            <th>会員ID</th>
+            <th class="member_id">会員ID</th>
             <th>ニックネーム</th>
             <th>メールアドレス</th>
             <th>パスワード</th>
             <th>アイコン</th>
         </tr>
         <tr>
-            <td>
+            <td class="member_id">
                 <p><?php echo 'NO. ' . htmlspecialchars($member['id']); ?></p>
             </td>
             <td>

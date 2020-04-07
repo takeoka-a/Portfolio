@@ -45,6 +45,7 @@ if (!empty($_POST)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>トップページ</title>
 </head>
 
@@ -55,8 +56,8 @@ if (!empty($_POST)) {
         <a class="submit_entry" href="join/">入会手続きをする</a>
     </div><br>
     <div>
-        <h2><span class="caption">メールアドレスとパスワードを記入してログインしてください。</span></h2>
-        <h2><span class="caption">入会手続きがまだの方は、先に手続きを完了させてください。</span></h2>
+        <h2 class="fontsize_h2"><span class="caption">メールアドレスとパスワードを記入してログインしてください。</span></h2>
+        <h2 class="fontsize_h2"><span class="caption">入会手続きがまだの方は、先に手続きを完了させてください。</span></h2>
     </div><br>
     <form action="" method="POST">
         <div class="content">

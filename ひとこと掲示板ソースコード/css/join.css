@@ -7,7 +7,7 @@ body{
     background-color: #FFFFF0;
     background-size: 10px 10px;
     max-width: 800px;
-    min-width: 600px;
+    min-width: 480px;
     width: 100%;
 
 }
@@ -76,7 +76,7 @@ font-size: 16px;
     cursor: pointer;
     text-align: center;
     font-size: 18px;
-    width: 30%;
+    width: 180px;
     height: 50px;
     border-radius: 5px;
     background: linear-gradient(#868686 0%, #3a3a3a 100%);
@@ -84,9 +84,5 @@ font-size: 16px;
     color: #fff;
 }
 .submit:hover {
-    font-size: 18px;
-    height: 50px;
-    border-radius: 5px;
-    text-align: center;
     background: #6866ff;
 }
